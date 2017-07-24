@@ -1,0 +1,13 @@
+name: Renamer
+version: ${project.version}
+main: net.xornick.renamer.Renamer
+author: XorNick
+description: Allows players to rename items with ease.
+commands:
+  rename:
+    description: Renames an item
+    permission: itemrename.use
+permissions:
+  itemrename.use:
+    default: false
+    description: Lets you use /rename
